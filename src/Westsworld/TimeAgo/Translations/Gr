@@ -1,0 +1,29 @@
+<?php
+
+namespace Westsworld\TimeAgo\Translations;
+
+use \Westsworld\TimeAgo\Language;
+
+/**
+ * Greek translations
+ */
+class Gr extends Language
+{
+    public function __construct()
+    {
+        $this->setTranslations([
+            'aboutOneDay' => "1 ημέρα πριν",
+            'aboutOneHour' => "περίπου 1 ώρα πριν",
+            'aboutOneMonth' => "περίπου 1 μήνα πριν",
+            'aboutOneYear' => "περίπου 1 χρόνο πριν",
+            'days' => "%s ημέρες πριν",
+            'hours' => "%s ώρες πριν",
+            'lessThanAMinute' => "λιγότερο απο 1 λεπτό πριν",
+            'lessThanOneHour' => "%s λεπτά πριν",
+            'months' => "%s μήνες πριν",
+            'oneMinute' => "1 λεπτό πριν",
+            'years' => "περισσότερο απο %s χρόνια πριν",
+            'never' => 'Ποτέ'
+        ]);
+    }
+}
